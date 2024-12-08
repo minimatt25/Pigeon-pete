@@ -1,0 +1,109 @@
+body{
+    display: none;
+    font-family: "Bungee", sans-serif;
+}
+
+input{
+    border-radius: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#mainCanvas{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: lightblue;
+    background-image: url("free-city-backgrounds-pixel-art/city 5/7.png");
+    border-radius: 25px;
+}
+
+#usernameContainer{
+    color: #FFED29;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 2px black;
+    left: 50%;
+    top: 36%;
+    transform: translate(-50%,-50%);
+}
+
+#errorText{
+    color: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px black;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+}
+
+#resetContainer{
+    display: none;
+}
+
+#resetButton{
+    position: absolute;
+    font-size: 20px;
+    left: 45%;
+    top: 50%;
+}
+
+#menuButton{
+    position: absolute;
+    font-size: 20px;
+    left: 55%;
+    top: 50%;
+}
+
+@media (max-width:600px){
+    #resetButton{
+        font-size: 10px;
+        left:40%;
+    }
+    #menuButton{
+        font-size: 10px;
+        left:60%;
+    }
+}
+@media (max-width:1280px){
+    #resetButton{
+        font-size: 15px;
+    }
+    #menuButton{
+        font-size: 15px;
+    }
+}
+
+
+#leaderboard{
+    display: none;
+    background-color: #FFED29;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+table,td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    padding: 15px;
+}
+td{
+    padding: 10px;
+}
+
+#tableUser{
+    padding-left: 30px;
+    padding-right: 30px;
+}
