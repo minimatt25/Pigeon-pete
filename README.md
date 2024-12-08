@@ -12,3 +12,6 @@ random item from array link: https://www.geeksforgeeks.org/how-to-select-a-rando
 collision between images help: https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas
 database setup code help: https://gitlab.aber.ac.uk/cwl/leaderboard/-/tree/main/php?ref_type=heads
 
+#database setup:
+for this game to work, you need a database to store the high scores. To make this jsut add your information to db_secrets and make sure the connection works.
+
